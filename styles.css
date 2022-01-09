@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body 
+{ background-color: rgb(241, 241, 224);
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    
+    
+
+}
+
+a {
+
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+
+text-decoration: antiquewhite;
+}
+
+.avatar {
+
+
+    width:  200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0) ;
+}
+
+
+.info {
+
+  display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info-text {
+margin-left: 40px;
+
+}
+
+.info-text h4 {
+
+    margin-bottom: 10px;
+
+}
+.info p {
+
+color: #86898f;
+margin: 0;
+font-style: italic;
+font-weight:bold ;
+text-decoration: none;
+ 
+}
+
+.container {
+
+  max-width: 750px; 
+  margin:auto;
+ padding-top: 30px;
+
+}
+
+.card h2 {
+
+    margin-bottom: 10px ;
+}
+
+.bfl {
+    background: rgb(175, 110, 12);
+    
+}
+
+.card {
+
+    padding: 15px 20px;
+    background: rgb(247, 226, 200);
+    margin-bottom: 20px;
+    border-radius:20px ;
+}
+
+.list {
+
+    padding: 50px 50px;
+    
+}
+.list li {
+    color:gray
+}
+.contact h2 {
+
+    text-align: center;
+}
+
+.form-group label {
+
+display: block;
+font-size: 14px;
+color:rgb(241, 241, 224)
+
+
+}
+
+.form-group input,
+.form-group textarea {
+
+width:100%;
+box-sizing: border-box;
+border: none;
+border-bottom: 1px solid gold;
+padding: 15px 20px 10px;
+outline: none;
+font-family:inherit ;
+
+
+
+}
+
+.row {
+display: flex;
+margin-bottom: 20px;
+
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btn {
+
+    color: rgba(24, 2, 9, 0.678);
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 1px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #F18230;
+	border-radius: 25px;
+	height: 46px;
+	line-height: 0;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+	vertical-align: top;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+}
+.btn span {
+	display: block;	
+	box-sizing: border-box;
+	padding: 0 25px;    
+	height: 42px;
+	line-height: 38px;    
+	border: 1px solid #F18230;
+	border-radius: 25px;    
+	font-size: 14px;
+	color: #FFFFFF;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F18230;
+	text-align: center;
+	font-weight: 600;
+}
+.btn:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.btn:hover span {
+	background-color: #fba768
+}
+.btn:active span {
+	background-color: #c17237 !important;
+}
+.btn:disabled {
+	opacity: 0.65;
+	pointer-events: none;
+}
+
+
+.insta-icon {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+  }
+  .insta-icon:after,
+  .insta-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+    content: ''
+  }
+  .insta-icon:before {
+    border-radius: 20%
+  }
+  .insta-icon:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%
+  }
